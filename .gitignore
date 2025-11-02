@@ -1,0 +1,53 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+.env
+.venv/
+.env.*
+pip-log.txt
+*.log
+
+# ---- Terraform ----
+# Local .terraform directories
+**/.terraform/*
+# .tfstate files
+*.tfstate
+*.tfstate.*
+# Crash log files
+crash.log
+crash.*.log
+# Exclude override files as they are usually local
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+# Include terraform.lock.hcl for reproducible builds
+# !terraform.lock.hcl
+
+# ---- AWS & Credentials ----
+*.pem
+*.key
+*.csr
+*.crt
+.aws/
+credentials.json
+
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ---- Misc ----
+# Ignore S3 uploaded data or generated PDFs
+spec-sheets/*.pdf
+uploads/
+logs/
+tmp/

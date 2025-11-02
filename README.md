@@ -169,7 +169,7 @@ Below are screenshots of the final deployed system:
 
 ### Example Non-Eligible Question
 
-![Example Non-Eligible Question](demo_categorize_non-eligible_questions.png)
+![Example Non-Eligible Question](Screenshots/demo_categorize_non-eligible_questions.png)
 
 ## 🧾 Summary
 
