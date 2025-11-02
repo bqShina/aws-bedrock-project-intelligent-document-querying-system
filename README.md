@@ -74,7 +74,7 @@ project-root/
 │
 ├── scripts/
 │   ├── aurora_sql.sql
-│   └── upload_to_s3.py
+│   └── upload_s3.py
 │
 ├── spec-sheets/
 │   └── machine_files.pdf
